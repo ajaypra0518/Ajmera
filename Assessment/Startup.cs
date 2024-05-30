@@ -34,10 +34,12 @@ namespace Assessment
         {
             services.AddAutoMapper(typeof(MappingProfiles));
             services.AddControllers();
+            services.AddDbContextFactory<BookDbContext>(opts => opts.UseSqlServer(Configuration["ConnectionString:DefaultConnection"]));
             services.AddDbContext<BookDbContext>(opts => opts.UseSqlServer(Configuration["ConnectionString:DefaultConnection"]));
             services.AddScoped<IBookRepository, BookRepository>();
             services.AddScoped<IBookService, BookService>();
             services.AddSingleton<ILoggerManager, LoggerManager>();
+            services.AddHostedService<TBackgroundSerive>();
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Assessment", Version = "v1" });
