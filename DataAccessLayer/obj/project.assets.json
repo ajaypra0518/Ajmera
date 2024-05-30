@@ -6046,11 +6046,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ajay Prajapati\\Desktop\\Assement\\DataAccessLayer\\DataAccessLayer.csproj",
+      "projectUniqueName": "E:\\Interview\\Ajmera Assement\\DataAccessLayer\\DataAccessLayer.csproj",
       "projectName": "DataAccessLayer",
-      "projectPath": "C:\\Users\\Ajay Prajapati\\Desktop\\Assement\\DataAccessLayer\\DataAccessLayer.csproj",
+      "projectPath": "E:\\Interview\\Ajmera Assement\\DataAccessLayer\\DataAccessLayer.csproj",
       "packagesPath": "C:\\Users\\Ajay Prajapati\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ajay Prajapati\\Desktop\\Assement\\DataAccessLayer\\obj\\",
+      "outputPath": "E:\\Interview\\Ajmera Assement\\DataAccessLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ajay Prajapati\\AppData\\Roaming\\NuGet\\NuGet.Config",

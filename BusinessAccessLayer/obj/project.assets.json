@@ -5961,11 +5961,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Ajay Prajapati\\Desktop\\Assement\\BusinessAccessLayer\\BusinessAccessLayer.csproj",
+      "projectUniqueName": "E:\\Interview\\Ajmera Assement\\BusinessAccessLayer\\BusinessAccessLayer.csproj",
       "projectName": "BusinessAccessLayer",
-      "projectPath": "C:\\Users\\Ajay Prajapati\\Desktop\\Assement\\BusinessAccessLayer\\BusinessAccessLayer.csproj",
+      "projectPath": "E:\\Interview\\Ajmera Assement\\BusinessAccessLayer\\BusinessAccessLayer.csproj",
       "packagesPath": "C:\\Users\\Ajay Prajapati\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Ajay Prajapati\\Desktop\\Assement\\BusinessAccessLayer\\obj\\",
+      "outputPath": "E:\\Interview\\Ajmera Assement\\BusinessAccessLayer\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Ajay Prajapati\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -5982,8 +5982,8 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "C:\\Users\\Ajay Prajapati\\Desktop\\Assement\\DataAccessLayer\\DataAccessLayer.csproj": {
-              "projectPath": "C:\\Users\\Ajay Prajapati\\Desktop\\Assement\\DataAccessLayer\\DataAccessLayer.csproj"
+            "E:\\Interview\\Ajmera Assement\\DataAccessLayer\\DataAccessLayer.csproj": {
+              "projectPath": "E:\\Interview\\Ajmera Assement\\DataAccessLayer\\DataAccessLayer.csproj"
             }
           }
         }

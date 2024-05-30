@@ -28,3 +28,33 @@ C:\Users\Ajay Prajapati\Desktop\Assement\BusinessAccessLayer\obj\Debug\net5.0\Bu
 C:\Users\Ajay Prajapati\Desktop\Assement\BusinessAccessLayer\obj\Debug\net5.0\refint\BusinessAccessLayer.dll
 C:\Users\Ajay Prajapati\Desktop\Assement\BusinessAccessLayer\obj\Debug\net5.0\BusinessAccessLayer.pdb
 C:\Users\Ajay Prajapati\Desktop\Assement\BusinessAccessLayer\obj\Debug\net5.0\ref\BusinessAccessLayer.dll
+C:\Users\Ajay Prajapati\Desktop\Ajmera Assement\BusinessAccessLayer\bin\Debug\net5.0\BusinessAccessLayer.deps.json
+C:\Users\Ajay Prajapati\Desktop\Ajmera Assement\BusinessAccessLayer\bin\Debug\net5.0\BusinessAccessLayer.dll
+C:\Users\Ajay Prajapati\Desktop\Ajmera Assement\BusinessAccessLayer\bin\Debug\net5.0\BusinessAccessLayer.pdb
+C:\Users\Ajay Prajapati\Desktop\Ajmera Assement\BusinessAccessLayer\bin\Debug\net5.0\DataAccessLayer.dll
+C:\Users\Ajay Prajapati\Desktop\Ajmera Assement\BusinessAccessLayer\bin\Debug\net5.0\DataAccessLayer.pdb
+C:\Users\Ajay Prajapati\Desktop\Ajmera Assement\BusinessAccessLayer\obj\Debug\net5.0\BusinessAccessLayer.csproj.AssemblyReference.cache
+C:\Users\Ajay Prajapati\Desktop\Ajmera Assement\BusinessAccessLayer\obj\Debug\net5.0\BusinessAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Ajay Prajapati\Desktop\Ajmera Assement\BusinessAccessLayer\obj\Debug\net5.0\BusinessAccessLayer.AssemblyInfoInputs.cache
+C:\Users\Ajay Prajapati\Desktop\Ajmera Assement\BusinessAccessLayer\obj\Debug\net5.0\BusinessAccessLayer.AssemblyInfo.cs
+C:\Users\Ajay Prajapati\Desktop\Ajmera Assement\BusinessAccessLayer\obj\Debug\net5.0\BusinessAccessLayer.csproj.CoreCompileInputs.cache
+C:\Users\Ajay Prajapati\Desktop\Ajmera Assement\BusinessAccessLayer\obj\Debug\net5.0\BusinessAccessLayer.csproj.CopyComplete
+C:\Users\Ajay Prajapati\Desktop\Ajmera Assement\BusinessAccessLayer\obj\Debug\net5.0\BusinessAccessLayer.dll
+C:\Users\Ajay Prajapati\Desktop\Ajmera Assement\BusinessAccessLayer\obj\Debug\net5.0\refint\BusinessAccessLayer.dll
+C:\Users\Ajay Prajapati\Desktop\Ajmera Assement\BusinessAccessLayer\obj\Debug\net5.0\BusinessAccessLayer.pdb
+C:\Users\Ajay Prajapati\Desktop\Ajmera Assement\BusinessAccessLayer\obj\Debug\net5.0\ref\BusinessAccessLayer.dll
+E:\Interview\Ajmera Assement\BusinessAccessLayer\bin\Debug\net5.0\BusinessAccessLayer.deps.json
+E:\Interview\Ajmera Assement\BusinessAccessLayer\bin\Debug\net5.0\BusinessAccessLayer.dll
+E:\Interview\Ajmera Assement\BusinessAccessLayer\bin\Debug\net5.0\BusinessAccessLayer.pdb
+E:\Interview\Ajmera Assement\BusinessAccessLayer\bin\Debug\net5.0\DataAccessLayer.dll
+E:\Interview\Ajmera Assement\BusinessAccessLayer\bin\Debug\net5.0\DataAccessLayer.pdb
+E:\Interview\Ajmera Assement\BusinessAccessLayer\obj\Debug\net5.0\BusinessAccessLayer.csproj.AssemblyReference.cache
+E:\Interview\Ajmera Assement\BusinessAccessLayer\obj\Debug\net5.0\BusinessAccessLayer.GeneratedMSBuildEditorConfig.editorconfig
+E:\Interview\Ajmera Assement\BusinessAccessLayer\obj\Debug\net5.0\BusinessAccessLayer.AssemblyInfoInputs.cache
+E:\Interview\Ajmera Assement\BusinessAccessLayer\obj\Debug\net5.0\BusinessAccessLayer.AssemblyInfo.cs
+E:\Interview\Ajmera Assement\BusinessAccessLayer\obj\Debug\net5.0\BusinessAccessLayer.csproj.CoreCompileInputs.cache
+E:\Interview\Ajmera Assement\BusinessAccessLayer\obj\Debug\net5.0\BusinessAccessLayer.csproj.CopyComplete
+E:\Interview\Ajmera Assement\BusinessAccessLayer\obj\Debug\net5.0\BusinessAccessLayer.dll
+E:\Interview\Ajmera Assement\BusinessAccessLayer\obj\Debug\net5.0\refint\BusinessAccessLayer.dll
+E:\Interview\Ajmera Assement\BusinessAccessLayer\obj\Debug\net5.0\BusinessAccessLayer.pdb
+E:\Interview\Ajmera Assement\BusinessAccessLayer\obj\Debug\net5.0\ref\BusinessAccessLayer.dll

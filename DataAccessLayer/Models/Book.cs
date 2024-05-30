@@ -16,7 +16,7 @@ namespace DataAccessLayer.Models
         [DatabaseGenerated(DatabaseGeneratedOption.Identity)]
         public Guid Id { get; set; }
         [Required]
-        public string Name { get; set; }
+        public string Names { get; set; }
         [Required]
         public string AuthorName { get; set; }
 

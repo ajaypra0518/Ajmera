@@ -3,10 +3,15 @@ using Assessment.ViewModel;
 using AutoMapper;
 using BusinessAccessLayer.Interface;
 using DataAccessLayer.Models;
+using Microsoft.AspNetCore.Connections;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore.Metadata;
+using RabbitMQ.Client;
+using RabbitMQ.Client.Events;
 using System;
 using System.Collections.Generic;
+using System.Text;
 
 namespace Assessment.Controllers
 {
@@ -33,7 +38,7 @@ namespace Assessment.Controllers
                 _logger.LogInfo("Get Books successfully");
                 return Ok(_mapper.Map<List<BookViewModel>>(books));
             }
-            catch (Exception)
+            catch (Exception ex)
             {
                 _logger.LogError("There is some while retriving your data");
                 return StatusCode(StatusCodes.Status500InternalServerError,
@@ -91,6 +96,47 @@ namespace Assessment.Controllers
                 return StatusCode(StatusCodes.Status500InternalServerError,
                 "There is some error while saving your data");
             }
+
+        }
+
+        [HttpGet("Test")]
+        public string Test()
+        {
+            var factory = new ConnectionFactory
+            {
+                //Uri = new Uri("amqp://guest:guest@localhost:5672"),
+                UserName = "guest",
+                Password = "guest",
+                HostName = "localhost",
+                Port = 5672,
+            };
+            using var connection = factory.CreateConnection();
+            using var channel = connection.CreateModel();
+            //QueueProducer.Publish(channel);
+
+            Console.WriteLine("Message send");
+
+            //using var connection1 = factory.CreateConnection();
+            //using var channel1 = connection.CreateModel();
+            //QueueConsumer.Consume(channel1);
+
+            channel.QueueDeclare("demo-queue",
+                    durable: true,
+                    exclusive: false,
+                    autoDelete: false,
+                    arguments: null);
+
+                var consumer = new EventingBasicConsumer(channel);
+                consumer.Received += (sender, e) => {
+                    var body = e.Body.ToArray();
+                    var message = Encoding.UTF8.GetString(body);
+                    Console.WriteLine(message);
+                };
+
+                channel.BasicConsume("demo-queue", true, consumer);
+            //Console.WriteLine("Consumer started");
+            //Console.ReadLine();
+            return "connected";
 
         }
     }
